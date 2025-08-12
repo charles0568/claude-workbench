@@ -24,8 +24,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: 'zh', // Default to Chinese
-    lng: 'zh', // Set Chinese as default language
+    fallbackLng: 'zh-TW', // Default to Traditional Chinese
+    lng: 'zh-TW', // Set Traditional Chinese as default language
     debug: false,
 
     interpolation: {
